@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ligia
+    last_name: Elizondo
+    
+    # Define yourself in 4-5 words
+    motto: Sensitive
+Justice-loving 
+Curious
+Tender-hearted
+Intolerant of mockery 
+    
+    # focus
+    focus: Being better every day
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I consider myself a respectful, organized person, with a high level of responsibility and very reliable.
+      Mother of a 4-year-old girl, which has given me a lot of maturity and opened my mind to new personal
+      and professional goals. In my opinion, motherhood has been a wonderful time to reconnect with myself, 
+      listen to myself, search for my essence, question what success is?, and if success is only about growing
+      the company. After motherhood I have a more human look to carry out my work in the company with more 
+     dreams, more goals, more hope and more motivation; I see it as something that makes my life and what 
+     I do have more meaning.
+     I am interested in the gaming industry and business intelligence, thanks to my previous experience
+    in Heritage sportsbook in customer service I have acquired people skills to be able to attend to
+    my current clients who are my colleagues from various departments and those who collaborated to receive
+    efficient work, solve their doubts and problems. I also have knowledge in networking , Db structure
+    and agile methodology. In addition to this I am very enthusiastic, spiritual and eager to learn.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQHtVo5m8oFDpg/profile-displayphoto-shrink_800_800/0/1675382408905?e=1691625600&v=beta&t=1Keu54JPW0kKV1jzv85_PCRaecNX7Q4BJrRRP7-7vtE
+
+    # Contact Information
+    email: lizcr1988@gmail.com #optional
+    phone: +506 6248 8123 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/ligia-elizondo-lor%C3%ADa-989a391a3/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ligia88
+    
+    twitter: '@ligiaelizo15569' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B2+
+
+      - idiom: portuguese
+        level: beginner
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Diving
+
+      - item: hiking
+
+# Your previous education
+education:
+    - degree: Technician in Data Analysis
+      university: Tecnológico de Costa Rica (TEC)
+      # optional
+      university_logo: https://yt3.googleusercontent.com/ytc/AGIKgqOHzfhDCncsED10EthhH8L1Tory3NkS1Kp-GE1Ybg=s176-c-k-c0x00ffffff-no-rj
+      time: 2021 - 2022
+      details: |
+        Design and implement dashboards, statistical analyses, reports, and other analytical outputs 
+        using data mining and visualization tools, following best practices in design and communication
+         with other areas of the organization.
+
+    - degree: Criminology
+      university: Universidad Libre De Costa Rica 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2020
+      details: |https://media.licdn.com/dms/image/D4E0BAQGBTJKvftki9g/company-logo_200_200/0/1686234260660?e=1694649600&v=beta&t=jDLRrIj8CC-DqaN2adR1vwqHr3EK9Qqh4QC2n2m7YBQ
+        
+
+      
+
+# Your previous job experiences or voluntier
+experiences:
+    - role:  Jr. Data Analyst
+      time: 2021 - 2023
+      company: Bet BUSR 
+      # optional
+      company_logo: https://cdn.busr.ag/assets/home-v2/images/logo.svg
+      details: |
+        •	Get daily deposits and players’ data from macro systems.
+•	Review and update daily, weekly and monthly reports for customer service, marketing and operations.
+•	Use of tools, such as SQL server , Workbench and Power BI  to check the database to gather and clean-up of data to create, complete and deliver requested reports or all departments in the company according to their needs.
+•	Provide support to colleagues from other departments regarding reports requested or BI tools.
+
+
+    - role:  Bet Machine Hostess 
+      time: 2017 - 2020
+      company: Heritage Sportsbook
+      # optional
+      company_logo: https://www.safestbettingsites.com/app/uploads/2015/07/Heritage-Sports-sportsbook-logo.jpg
+      details: |
+        •	Educated customers on promotions to enhance sales.
+•	Liaised with customers, management and sales team to better understand customer needs and recommend appropriate solutions.
+•	Maintained customer satisfaction with forward-thinking strategies focused on addressing customer needs and resolving concerns.
+
+
+
+    
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python 
+        level: basics
+
+      - name: Tableau
+        level: Intermediate
+
+      - name: Power BI 
+        level: Intermediate
+
+      - name: HTML5 & CSS
+        level: Intermediate
+
+      - name: 	SQL Server 
+        level: intermediate
+
+      - name: Excel
+        level: Advanced
